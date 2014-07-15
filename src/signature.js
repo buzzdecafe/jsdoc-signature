@@ -6,14 +6,12 @@
 
 "use strict";
 
-
 exports.defineTags = function(dictionary) {
     dictionary.defineTag('signature', {
       mustHaveValue: true,
-      canHaveName: true,
       onTagged: function(doclet, tag) {
-        throw new Error('boom, bitches!');
-        doclet.type = "Function"
+        doclet.type = "Function";
+        doclet.signature = ' :: ' + tag.text;
       }
     });
 
