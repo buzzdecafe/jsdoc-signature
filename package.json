@@ -1,0 +1,15 @@
+{
+  "author": "buzzdecafe <mh@buzzdecafe.com>",
+  "name": "jsdoc-signature",
+  "description": "Haskell-style function signature for JSDoc.",
+  "version": "0.0.1",
+  "homepage": "https://github.com/buzzdecafe/jsdoc-signature",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/buzzdecafe/jsdoc-signature"
+  },
+  "dependencies": {
+    "jsdoc": "~3.3.0"
+  }
+}
