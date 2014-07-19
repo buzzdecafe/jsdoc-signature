@@ -11,7 +11,8 @@ exports.defineTags = function(dictionary) {
       mustHaveValue: true,
       onTagged: function(doclet, tag) {
         doclet.type = "Function";
-        doclet.signature = ' :: ' + tag.text;
+        doclet.signature = tag.text;
+        doclet.returns = '';
       }
     });
 
